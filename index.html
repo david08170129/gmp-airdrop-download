@@ -361,6 +361,7 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="#download">Download</a>
+        <a href="#firewall">Warnings</a>
         <a href="#privacy">Privacy</a>
         <a href="#faq">FAQ</a>
         <a href="#screenshots">Screenshots</a>
@@ -423,6 +424,33 @@
           <a class="button primary" href="GMP_Airdrop_Setup.exe" download>
             Download GMP_Airdrop_Setup.exe
           </a>
+        </div>
+      </section>
+
+      <section class="section two-column" id="firewall">
+        <div>
+          <p class="eyebrow">Firewall or antivirus warning</p>
+          <h2>New download pages and unsigned installers may be blocked.</h2>
+        </div>
+        <div class="panel">
+          <p>
+            Some antivirus or firewall tools may block brand-new download pages
+            or unsigned Windows installers. GMP AirDrop is a local Wi-Fi
+            transfer tool and does not require cloud relay or account login.
+          </p>
+          <p>If the website or download is blocked:</p>
+          <ol class="steps">
+            <li>Check whether antivirus Web Shield or firewall blocked github.io.</li>
+            <li>Allow this website temporarily if you trust the source.</li>
+            <li>Download the Windows receiver from the official GitHub Release link.</li>
+            <li>After installation, allow GMP AirDrop through Windows Firewall for private/local networks.</li>
+            <li>Keep both iPhone and PC on the same Wi-Fi.</li>
+          </ol>
+          <p>
+            Windows SmartScreen may show "Unknown publisher" because the current
+            Windows receiver is not code-signed yet. Click More info -> Run
+            anyway only if downloaded from this official page.
+          </p>
         </div>
       </section>
 
@@ -527,8 +555,10 @@
         <div class="panel">
           <p>
             Microsoft SmartScreen may show a warning for new or unsigned builds
-            until the app has enough download reputation. Only install GMP
-            AirDrop from the official download location provided by the developer.
+            until the app has enough download reputation. Windows SmartScreen
+            may show "Unknown publisher" because the current Windows receiver
+            is not code-signed yet. Click More info -> Run anyway only if the
+            installer was downloaded from this official page.
           </p>
         </div>
       </section>
